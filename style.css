@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.smartwatch {
+  height: 80vh;
+  width: 25%;
+  margin: 12rem auto;
+  position: relative;
+  font-size: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+.smartwatch_innerpart {
+  height: 65vh;
+  width: 100%;
+  background-color: black;
+  z-index: 1;
+  position: absolute;
+  border-radius: 10rem;
+  font-size: 10rem;
+}
+.smartwatch_outer {
+  height: 75vh;
+  width: 100%;
+  position: relative;
+  background-color: grey;
+  top: -3rem;
+  border-radius: 10rem;
+}
+
+.smartwatch_innerpart-text2 {
+  position: absolute;
+  z-index: 10;
+  left: 07rem;
+  top: 15rem;
+  color: white;
+}
+
+.smartwatch_innerpart-text1 {
+  font-size: 2rem;
+  position: absolute;
+  z-index: 10;
+  left: 14rem;
+  top: 2rem;
+  color: white;
+}
+
+.smartwatch_innerpart-images-flex {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 2rem;
+  left: 3rem;
+}
+
+.padding {
+  margin: 2rem;
+  cursor: pointer;
+}
